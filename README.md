@@ -1,7 +1,8 @@
-# Md. Hasibur Rahman - Portfolio Website
-## Jr. AI/ML Engineer, Researcher, and Data Annotator.
-## Live: https://hasibur013.github.io/
-This is a personal portfolio, but suggestions are welcome!
+# Mohammad Rakibul Hasan Rifat - Portfolio Website
+## AI/ML Engineer, Data Science Engineer, and Researcher.
+## Live: https://rifat4018.github.io/
+
+This is the source code for my personal portfolio, showcasing my research and projects in Federated Learning, Graph Neural Networks, NLP, and Computer Vision. Suggestions and feedback are welcome!
 
 ## 📄 License
 
@@ -9,20 +10,21 @@ This project is open source and available for personal use.
 
 ## 📞 Contact
 
-- **Email**: hasibur01631753881@gmail.com
-- **Phone**: +880 1610-768178
-- **Location**: Gazipur, Dhaka, Bangladesh
+- **Email**: sajibahmedrifat1234@gmail.com
+- **Phone**: +880 1999-984590
+- **Location**: Dhaka, Bangladesh
 
 ## 🔗 Links
 
-- [LinkedIn](https://www.linkedin.com/in/md-hasibur-rahman-2286321b9/)
-- [GitHub](https://github.com/hasibur013)
-- [Kaggle](https://www.kaggle.com/hasibur013)
-- [Google Scholar](https://scholar.google.com/citations?user=PyEMtfkAAAAJ&hl=en)
-- [ResearchGate](https://www.researchgate.net/profile/Md-Rahman-1528)
+- [LinkedIn](https://www.linkedin.com/in/rifat-923a14241)
+- [GitHub](https://github.com/Rifat4018)
+<!-- Uncomment and add your links below once you set them up -->
+<!-- - [Kaggle](https://www.kaggle.com/yourprofile) -->
+<!-- - [Google Scholar](https://scholar.google.com/citations?user=yourid) -->
+<!-- - [ResearchGate](https://www.researchgate.net/profile/yourprofile) -->
 
 ---
 
-**Made with ❤️ by Md. Hasibur Rahman**
+**Made with ❤️ by Mohammad Rakibul Hasan Rifat**
 
-*Last Updated: January 2026*
+*Last Updated: May 2026*
