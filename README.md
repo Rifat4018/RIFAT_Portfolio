@@ -16,7 +16,7 @@ This project is open source and available for personal use.
 
 ## 🔗 Links
 
-- [LinkedIn](https://www.linkedin.com/in/rifat-923a14241)
+- [LinkedIn]([https://www.linkedin.com/in/rifat-923a14241](https://www.linkedin.com/in/mohammad-rakibul-hasan-rifat-923a14241/))
 - [GitHub](https://github.com/Rifat4018)
 <!-- Uncomment and add your links below once you set them up -->
 <!-- - [Kaggle](https://www.kaggle.com/yourprofile) -->
