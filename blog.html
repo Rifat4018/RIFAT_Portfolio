@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog - Insights on Machine Learning, Federated Learning, and AI by Mohammad Rakibul Hasan Rifat">
+    <title>Blog | Mohammad Rakibul Hasan Rifat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .blog-hero {
+            padding: 150px 0 80px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+        }
+        .blog-hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .blog-hero p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        .blog-post-full {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 3rem 1rem;
+        }
+        .blog-post-full h2 {
+            color: var(--text-primary);
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+        .blog-post-full p {
+            color: var(--text-secondary);
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+        }
+        .blog-post-full code {
+            background: var(--bg-light);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+        }
+        .blog-post-full pre {
+            background: var(--bg-light);
+            padding: 1.5rem;
+            border-radius: 8px;
+            overflow-x: auto;
+            margin: 1.5rem 0;
+        }
+        .blog-post-meta {
+            display: flex;
+            gap: 2rem;
+            margin-bottom: 2rem;
+            color: var(--text-secondary);
+        }
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+            margin-bottom: 2rem;
+        }
+        .back-link:hover {
+            gap: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Dark Mode Toggle -->
+    <button class="dark-mode-toggle" id="darkModeToggle" aria-label="Toggle dark mode">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Rifat</div>
+            <ul class="nav-links">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Blog Hero -->
+    <section class="blog-hero">
+        <div class="container">
+            <h1>Blog & Insights</h1>
+            <p>Exploring Federated Learning, NLP, Computer Vision, and AI Research</p>
+        </div>
+    </section>
+
+    <!-- Blog Content -->
+    <section class="blog-content">
+        <div class="container">
+            <div id="blog-list" class="blog-grid">
+                <!-- Blog posts will be loaded here -->
+                
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <div class="blog-category">LLM & RAG</div>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date"><i class="far fa-calendar"></i> May 10, 2026</span>
+                        <h3>Architecting Local LLM Pipelines with Ollama</h3>
+                        <p>A deep dive into integrating Llama3 and phi3 with FAISS and LangChain. Learn how to automate CV screening and document Q&A entirely locally, ensuring data privacy and fast, text-grounded inference...</p>
+                        <a href="#post-llm-rag" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <div class="blog-category">Federated Learning</div>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date"><i class="far fa-calendar"></i> April 15, 2026</span>
+                        <h3>Implementing Leakage-Safe Architectures in FedSSP-VRA</h3>
+                        <p>An exploration of methodology and benchmarking techniques to ensure privacy in personalized federated graph learning. We look at multi-view genomic graph representations and AMR prediction frameworks...</p>
+                        <a href="#post-fedssp" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <div class="blog-category">Computer Vision</div>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date"><i class="far fa-calendar"></i> March 22, 2026</span>
+                        <h3>Evaluating YOLOv8 vs. RT-DETR on Satellite Data</h3>
+                        <p>Insights into bounding box predictions, mAP evaluations, and SAHI-based inference. This post covers the unique challenges and anomalies of handling small vs. big object detection in complex satellite datasets...</p>
+                        <a href="#post-cv-benchmarking" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <div class="blog-category">Hardware & HCI</div>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date"><i class="far fa-calendar"></i> February 28, 2026</span>
+                        <h3>Engineering SmartCane: A Multi-Sensor Accessibility System</h3>
+                        <p>Designing a tangible accessibility system bridging hardware and HCI. I discuss integrating ultrasonic ranging, infrared detection, and an IMU-based tilt estimation dashboard for visually impaired navigation...</p>
+                        <a href="#post-smartcane" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <div class="blog-category">Data Science</div>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date"><i class="far fa-calendar"></i> December 15, 2025</span>
+                        <h3>End-to-End NLP Pipeline: Scraping to Topic Modeling</h3>
+                        <p>A detailed walkthrough of building an NLP pipeline in R to scrape 250 BBC News articles, apply sentiment scoring, and utilize LDA for dynamic topic modeling alongside advanced feature engineering...</p>
+                        <a href="#post-nlp-pipeline" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <div class="blog-category">Medical AI</div>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date"><i class="far fa-calendar"></i> November 20, 2025</span>
+                        <h3>3D Image Pancreas Radiomics for Clinical ML</h3>
+                        <p>Developing a radiomics-based medical imaging pipeline for feature extraction. Discover the approaches taken for Explainable AI analysis from pancreatic imaging data, ahead of our ICEFronT 2026 presentation...</p>
+                        <a href="#post-radiomics" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Mohammad Rakibul Hasan Rifat. All rights reserved.</p>
+            <p>AI/ML Engineer | Data Science Engineer | Researcher</p>
+            <div class="footer-links">
+                <a href="index.html#home">Home</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#projects">Projects</a>
+                <a href="blog.html">Blog</a>
+                <a href="index.html#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
